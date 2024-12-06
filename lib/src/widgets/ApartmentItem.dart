@@ -164,14 +164,14 @@ class _ApartmentItem extends State<ApartmentItem> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         TextButton(
-                            onPressed: () => {}, child: Text("Edit Property")),
+                            onPressed: () => {}, child: Text("Edit Property", style: W400_S15_C000000)),
                         Container(
                           height: 1,  // 1px height
                           width: 200,  // Takes up the full width
                           color: Color(0xFF797980),  // Line color
                         ),
                         TextButton(
-                            onPressed: () => {}, child: Text("Delete Property"))
+                            onPressed: () => {}, child: Text("Delete Property", style: W400_S15_C000000,))
                       ],
                     ),
                   ),
